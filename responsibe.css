@@ -1,0 +1,158 @@
+@media screen and (max-width:600px) {
+    .nav-list{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+        font-size: 2rem;
+    }
+    .logo h1{
+        font-size: 1.8rem;
+    }
+
+    /* Section One Steyling Heare  */
+    .section-one{
+        background-position: center;
+        border-radius: 15px;
+    }
+    .banner{
+        width: 100%;
+        padding: 1vw 2vw;
+    }
+    .banner h1 {
+        font-size: 2rem;
+    }
+    .from-control{
+        padding-bottom: 2vw;
+        width: 70%;
+        margin: 0vw auto;
+        margin-top: 10px;
+    }
+    .from-control  button,select{
+     width: 90%;
+     margin-top: 3vw;
+     font-size: 1rem;
+     padding: 4vw;
+    }
+    
+    /* Section-Two Style Hear  */
+    .section-two{
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .sec-two-left p,ul{
+        width: 100%;
+    }
+    .sec-two-left ul{
+        padding-left: 3vw;
+    }
+    .sec-two-left p{
+        margin-top: 4vw;
+    }
+    .sec-two-right img{
+        width: 100%;
+        }
+    .sec-two-left .btn2{
+        padding: 2vw 4vw;
+    }
+
+
+    /* Section Three Style Hear  */
+    .sec-title{
+        width: 90%;
+    }
+    .section-three{
+        gap: 1.5vw;
+       grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6" 
+        "item7"
+        ;
+    }
+    .item span{
+        font-size: 1.4rem;
+    }
+    /* section four style hear  */
+    .section-four{
+        grid-template-areas: 
+        "box1"
+        "box2"
+        "box3"
+    }
+    /* section five ,six, seven , style hear  */
+    .first-item{
+        border-radius: 10px;
+    }
+    .item-div{
+        padding: 6vw;
+        width: 80%;
+        top: 30%;
+        left: 10%;
+    }
+    .secend-item .item-div{
+        top: 30%;
+        left: 10%;
+    }
+     .btn3{
+        padding: 2vw 3vw;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--primary);
+        font-weight: 700;
+        color: #fff;
+        margin-top: 2vw;
+    }
+
+
+    /* section-eight styling hear  */
+    .section-Eight{
+       flex-direction: column;
+       gap: 4vw;
+    }
+    .video video{
+        width: 450px;
+    }
+    .sec-eight-left p,ul{
+        width: 100%;
+    }
+    .sec-eight-left ul{
+        padding-left: 3vw;
+    }
+    .sec-eight-left p{
+        margin-top: 4vw;
+    }
+    .sec-eight-left .btn4{
+        padding: 2vw 4vw;
+    }
+
+    /* section night style hear  */
+    .section-night{
+       flex-direction: column;
+       gap: 5vw;
+    }    
+.frombar{
+    padding: 5vw;
+}
+.frombar input{
+    margin-top: 5vw;
+    padding: 4vw;
+}
+.discawont-box{
+    bottom: 9vw;
+    right: 1vw;
+}
+
+/* and footer styling hear  */
+footer{
+    height: 45%;
+}
+.footer-item p{
+    width: 100%;
+    margin: 2vw auto;
+}
+
+}
