@@ -69,7 +69,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 15px 15px;
-    height: 100vh;
+    height:80vh;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -238,7 +238,7 @@ background-color: rgba(251, 181, 99, 0.05);
 /* Section Five Style Start Hear   */
 .section-five{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 .first-item{
     background-image: url('images/Group\ 39.png');
@@ -254,8 +254,8 @@ background-color: rgba(251, 181, 99, 0.05);
 .item-div{
     position: absolute;
     right: 5%;
-    top: 25%;
-    width: 50%;
+    top: 15%;
+    width: 40%;
     line-height: 1.7;
     padding: 2vw;
     font-weight: 800;
@@ -290,7 +290,7 @@ margin-top: 1vw;
 }
 .secend-item .item-div{
     left: 5%;
-    top: 25%;
+    top: 15%;
 }
 .bottom-btn{
     text-align: center;
@@ -298,12 +298,12 @@ margin-top: 1vw;
 
 /* section six seven styling start hear */
 .section-six{
-    height: 100vh;
+    height: 70vh;
     margin: 0 auto;
 
 }
 .section-seven{
-    height: 100vh;
+    height: 70vh;
 }
 /* section eight styling start hear  */
 .section-Eight{
